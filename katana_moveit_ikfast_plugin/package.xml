@@ -5,7 +5,7 @@
   <description>The katana_moveit_ikfast_plugin package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
-  <maintainer email="mguenthe@uos.de">Martin Günther</maintainer>
+  <maintainer email="mguenthe@uos.de">Martin Guenther</maintainer>
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
@@ -19,7 +19,7 @@
 
   <!-- Author tags are optional, mutiple are allowed, one per tag -->
   <!-- Authors do not have to be maintianers, but could be -->
-  <author email="mguenthe@uos.de">Martin Günther</author>
+  <author email="mguenthe@uos.de">Martin Guenther</author>
 
   <!-- The *_depend tags are used to specify dependencies -->
   <!-- Dependencies can be catkin packages or system dependencies -->
