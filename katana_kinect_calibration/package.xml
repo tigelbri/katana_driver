@@ -1,0 +1,44 @@
+<package>
+  <name>katana_kinect_calibration</name>
+  <version>1.0.0</version>
+  <description></description>
+  <maintainer email="">Michael Goerner</maintainer>
+
+  <license>GPL</license>
+
+  <url type="website">http://ros.org/wiki/katana_kinect_calibration</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Michael Goerner</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>ar_pose</build_depend>
+  <build_depend>ar_kinect</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>katana_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>ar_pose</run_depend>
+  <run_depend>ar_kinect</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>katana_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>ar_pose</test_depend> -->
+  <!-- <test_depend>ar_kinect</test_depend> -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>actionlib</test_depend> -->
+  <!-- <test_depend>katana_msgs</test_depend> -->
+
+</package>

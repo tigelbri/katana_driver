@@ -1,0 +1,62 @@
+<package>
+  <name>katana_arm_gazebo</name>
+  <version>1.0.0</version>
+  <description>This package starts a Neuronics Katana robot arm in the Gazebo simulation environment. It is modeled after the</description>
+  <maintainer email="mguenthe@uni-osnabrueck.de">Martin Guenther</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/katana_arm_gazebo</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Martin Guenther</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>gazebo</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>katana_description</build_depend>
+  <build_depend>pr2_controller_manager</build_depend>
+  <build_depend>robot_mechanism_controllers</build_depend>
+  <build_depend>katana_gazebo_plugins</build_depend>
+  <build_depend>katana_joint_movement_adapter</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>gazebo</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>katana_description</run_depend>
+  <run_depend>pr2_controller_manager</run_depend>
+  <run_depend>robot_mechanism_controllers</run_depend>
+  <run_depend>katana_gazebo_plugins</run_depend>
+  <run_depend>katana_joint_movement_adapter</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>pr2_controllers_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>gazebo</test_depend> -->
+  <!-- <test_depend>urdf</test_depend> -->
+  <!-- <test_depend>xacro</test_depend> -->
+  <!-- <test_depend>robot_state_publisher</test_depend> -->
+  <!-- <test_depend>katana_description</test_depend> -->
+  <!-- <test_depend>pr2_controller_manager</test_depend> -->
+  <!-- <test_depend>robot_mechanism_controllers</test_depend> -->
+  <!-- <test_depend>katana_gazebo_plugins</test_depend> -->
+  <!-- <test_depend>katana_joint_movement_adapter</test_depend> -->
+  <!-- <test_depend>actionlib</test_depend> -->
+  <!-- <test_depend>pr2_controllers_msgs</test_depend> -->
+  <!-- <test_depend>std_msgs</test_depend> -->
+
+</package>

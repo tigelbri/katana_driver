@@ -1,0 +1,71 @@
+<package>
+  <name>katana</name>
+  <version>1.0.0</version>
+  <description></description>
+  <maintainer email="mguenthe@uni-osnabrueck.de">Martin Guenther</maintainer>
+
+  <license>GPL</license>
+
+  <url type="website">http://ros.org/wiki/katana</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Martin Guenther</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>kni</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>kinematics_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>object_manipulation_msgs</build_depend>
+  <build_depend>katana_msgs</build_depend>
+  <build_depend>arm_navigation_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>kni</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>pr2_controllers_msgs</run_depend>
+  <run_depend>control_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>kinematics_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>object_manipulation_msgs</run_depend>
+  <run_depend>katana_msgs</run_depend>
+  <run_depend>arm_navigation_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>roslib</test_depend> -->
+  <!-- <test_depend>kni</test_depend> -->
+  <!-- <test_depend>geometry_msgs</test_depend> -->
+  <!-- <test_depend>std_srvs</test_depend> -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>actionlib</test_depend> -->
+  <!-- <test_depend>pr2_controllers_msgs</test_depend> -->
+  <!-- <test_depend>control_msgs</test_depend> -->
+  <!-- <test_depend>trajectory_msgs</test_depend> -->
+  <!-- <test_depend>urdf</test_depend> -->
+  <!-- <test_depend>kinematics_msgs</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>object_manipulation_msgs</test_depend> -->
+  <!-- <test_depend>katana_msgs</test_depend> -->
+  <!-- <test_depend>arm_navigation_msgs</test_depend> -->
+
+</package>

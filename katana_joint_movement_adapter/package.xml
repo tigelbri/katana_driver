@@ -1,0 +1,46 @@
+<package>
+  <name>katana_joint_movement_adapter</name>
+  <version>1.0.0</version>
+  <description>Provides a node that converts a katana_msgs/JointMovement to a pr2_controllers_msgs/JointTrajectory.
+    When running on real hardware, the katana package provides a JointMovement action. This node only
+    needs to be run when running on the Gazebo simulator.</description>
+  <maintainer email="">Martin Guenther</maintainer>
+
+  <license>GPL</license>
+
+  <url type="website">http://ros.org/wiki/katana_joint_movement_adapter</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Martin Guenther</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>katana_msgs</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>arm_navigation_msgs</build_depend>
+  <build_depend>joint_trajectory_generator</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>katana_msgs</run_depend>
+  <run_depend>pr2_controllers_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>arm_navigation_msgs</run_depend>
+  <run_depend>joint_trajectory_generator</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>actionlib</test_depend> -->
+  <!-- <test_depend>katana_msgs</test_depend> -->
+  <!-- <test_depend>pr2_controllers_msgs</test_depend> -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>arm_navigation_msgs</test_depend> -->
+  <!-- <test_depend>joint_trajectory_generator</test_depend> -->
+
+</package>
